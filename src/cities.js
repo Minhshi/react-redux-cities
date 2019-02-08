@@ -1,6 +1,14 @@
 const cities = [
-  { name: "Paris", address: "16 Villa Gaudelet, 75011 Paris", slug: "paris" },
-  { name: "London", address: "14-22 Elder St, London E1 6BT", slug: "london" },
+  {
+    name: "Paris",
+    address: "16 Villa Gaudelet, 75011 Paris",
+    slug: "paris"
+  },
+  {
+    name: "London",
+    address: "14-22 Elder St, London E1 6BT",
+    slug: "london"
+  },
   {
     name: "Berlin",
     address: "Rudi-Dutschke-Straße 26, 10969 Berlin",
@@ -11,13 +19,20 @@ const cities = [
     address: "Jalan Raya Batu Bolong, Canggu, Badung Regency, Bali, Indonesia",
     slug: "bali"
   },
-  { name: "Budapest", address: "Budapest, Hungary", slug: "budapest" },
+  {
+    name: "Budapest",
+    address: "Budapest, Hungary",
+    slug: "budapest" },
   {
     name: "Montréal",
     address: "5333, avenue Casgrain, 102, Montréal (Québec), H2T1X3",
     slug: "montreal"
   },
-  { name: "Tokyo", address: "2-11-3 Meguro, Meguro-ku, Tokyo ", slug: "tokyo" },
+  {
+    name: "Tokyo",
+    address: "2-11-3 Meguro, Meguro-ku, Tokyo ",
+    slug: "tokyo"
+  },
   {
     name: "Amsterdam",
     address: "Overhoeksplein 2, 1031 KS Amsterdam",
@@ -40,8 +55,7 @@ const cities = [
   },
   {
     name: "Florianópolis",
-    address:
-      "Rod. José Carlos Daux, 4150 - Saco Grande, Florianópolis - SC, 88032-005",
+    address: "Rod. José Carlos Daux, 4150 - Saco Grande, Florianópolis - SC, 88032-005",
     slug: "florianopolis"
   },
   {
@@ -79,7 +93,10 @@ const cities = [
     address: "Ahornsgade 15, 2200 KBH N",
     slug: "copenhagen"
   },
-  { name: "Nantes", address: "11 impasse Juton, Nantes", slug: "nantes" },
+  {
+    name: "Nantes",
+    address: "11 impasse Juton, Nantes",
+    slug: "nantes" },
   {
     name: "Aix - Marseille",
     address: "Rue Joseph Biaggi, 13003 Marseille",
@@ -90,8 +107,16 @@ const cities = [
     address: "107 cours Balguerie Stuttenberg, 33300",
     slug: "bordeaux"
   },
-  { name: "Lille", address: "2 Avenue des Saules, 59000 Lille", slug: "lille" },
-  { name: "Lyon", address: "23 Rue Paul Montrochet, 69002 Lyon", slug: "lyon" }
+  {
+    name: "Lille",
+    address: "2 Avenue des Saules, 59000 Lille",
+    slug: "lille"
+  },
+  {
+    name: "Lyon",
+    address: "23 Rue Paul Montrochet, 69002 Lyon",
+    slug: "lyon"
+  }
 ];
 
 export default cities;

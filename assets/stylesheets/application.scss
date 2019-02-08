@@ -2,9 +2,24 @@ body {
   font-family: Helvetica;
 }
 
-#root {
+#root > div {
   height: 100vh;
   display: flex;
   // align-items: center;
   // justify-content: center;
+}
+
+.left-scene {
+  flex: 0 0 30%;
+}
+
+.right-scene {
+  flex: 0 0 70%;
+}
+
+.city {
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  margin: 4px;
+  padding: 4px;
 }
